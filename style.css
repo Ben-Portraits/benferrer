@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fafafa;
+  color: #111;
+  text-align: center;
+}
+header {
+  padding: 60px 20px 20px;
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+h2 {
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.gallery img {
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
+  border: 1px solid #ccc;
+  background: white;
+  padding: 5px;
+}
+.signature {
+  margin-top: 20px;
+  width: 120px;
+}
+footer {
+  padding: 40px 20px;
+  font-size: 1em;
+  background: #fff;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
